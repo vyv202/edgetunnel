@@ -1,8 +1,8 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
-let proxyIP = '';
+let userID = 'a48a7132-a384-4771-bfbd-a8e11ac479d6';
+let proxyIP = 'proxyip.tp1.cmliussss.com';
 let DNS64Server = '';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
@@ -4568,3 +4568,4 @@ async function nginx() {
 	`
     return text;
 }
+
